@@ -63,3 +63,36 @@
     right: 5px;
     bottom: 8px;
 }
+.channel-pic-container{
+    position: relative;
+}
+.channel-pic-container:hover .zoom-info{
+    opacity: 1;
+}
+.zoom-info{
+    position: absolute;
+    top: 45px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 220px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(15, 14, 14, 0.30);
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.zoom-profile-pic{
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.zoom-channel-name{
+    font-weight:700;
+    font-size: 18px;
+}
+.zoom-subscribers{
+    color: rgb(116, 116, 116);
+    margin-top: 5px;
+}
